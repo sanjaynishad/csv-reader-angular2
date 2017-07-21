@@ -1,0 +1,2 @@
+<button class="btn btn-lg btn-primary" (click)="fileUpload.click()">Upload CSV File(s)</button>
+<input class="hidden" #fileUpload type="file" (change)="fileChange($event)" placeholder="Upload file" accept=".csv" multiple>

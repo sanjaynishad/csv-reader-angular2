@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <h1>Upload CSV</h1>
+  <p>This is an application where we can upload CSV files (5 maximum) and show the data in the CSV file.</p>
+  <p>
+  	<file-upload (uploaded)="uploaded($event)"></file-upload>
+  	
+  </p>
+  <span *ngIf="uploadedCount > 0">Uploaded files: {{uploadedCount}} <a routerLink="/show-data">Show Data</a></span>
+</div>

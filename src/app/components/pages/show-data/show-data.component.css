@@ -1,0 +1,12 @@
+.table-responsive {
+	max-height: 70vh;
+	border-top: 1px solid #ddd;
+}
+
+.table {
+	border-top:none;
+}
+
+.data-container {
+	margin-top: 20px;
+}
